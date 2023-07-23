@@ -64,5 +64,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://backend-ymqh.onrender.com"
+  "proxy": "https://backend-ymqh.onrender.com",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
 }
