@@ -67,5 +67,8 @@
   "proxy": "https://backend-ymqh.onrender.com",
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  },
+  "devServer": {
+    "disableHostCheck": true
   }
 }
