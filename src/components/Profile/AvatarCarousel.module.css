@@ -1,0 +1,43 @@
+.carouselItem {
+  display: inline-block !important;
+  width: auto !important;
+  padding: 0 !important;
+  margin: 5px !important;
+  align-items: center;
+  text-align: center;
+  /* gap: 10px; */
+}
+
+.avatarImage {
+  width: 110px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.active {
+  border-radius: 50px;
+  background-color: var(--main-blue);
+}
+
+.carousel-control-next {
+  background-color: red;
+}
+
+.avatarWrapper {
+  position: relative;
+}
+
+.productifyLockIcon {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+
+.paragraph {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: large;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
