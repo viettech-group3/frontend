@@ -307,11 +307,11 @@ const Profile = () => {
                   Choose a random avatar for 50 points!
                 </div>
                 {/* <div className  */}
-                <div className={styles.wheel}>
+                {/* <div className={styles.wheel}>
                   {allAvatars.length > 0 && purchasedAvatar[0].length > 0 ? (
                     <Wheel />
                   ) : null}
-                </div>
+                </div> */}
               </Card>
             </div>
           </div>
