@@ -2,6 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+  "prebuild" : "npm install react-wheel-of-prizes --force",
   "dependencies": {
     "@chakra-ui/react": "^2.6.1",
     "@dicebear/adventurer": "^6.0.4",
